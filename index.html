@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background: linear-gradient(135deg, #fce4ec 0%, #f3e5f5 100%);
+            color: #4a148c;
+            text-align: center;
+        }
+        header {
+            padding: 100px 20px;
+            background: #ffffff;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        h1 { font-size: 3rem; margin: 0; animation: bounce 2s infinite; }
+        .container { max-width: 800px; margin: auto; padding: 20px; }
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            margin: 20px 0;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+        }
+        .photo-placeholder {
+            width: 100%;
+            height: 300px;
+            background: #e1bee7;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        .btn {
+            background: #7b1fa2;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            font-size: 1.1rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Happy Birthday! 🎈</h1>
+    <p>To someone who makes the world brighter just by being in it.</p>
+</header>
+
+<div class="container">
+    <div class="card">
+        <h2>Our Best Memories</h2>
+        <div class="photo-placeholder"> [Add Your Favorite Photo Here] </div>
+        <p>From the unexpected moments we shared to the big milestones, every second has been a blast.</p>
+    </div>
+
+    <div class="card">
+        <h2>A Little Message for You</h2>
+        <p>You’re not just a friend; you’re a constant source of inspiration. I hope this year brings you as much joy as you give to everyone around you!</p>
+    </div>
+    
+    <button class="btn" onclick="alert('Sending you a virtual hug! 🤗')">Click for a Surprise</button>
+</div>
+
+</body>
+</html>
